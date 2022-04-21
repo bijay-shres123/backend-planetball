@@ -59,6 +59,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'profiles_api',
     "corsheaders",
+    'training_session'
 ]
 
 MIDDLEWARE = [
