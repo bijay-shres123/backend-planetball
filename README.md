@@ -4,7 +4,7 @@ The project is created as per requierments for coursework under SOFT7003. This w
 The first thing to do is to clone the repository:
 
 $ git clone https://github.com/gocardless/backend-planetball.git
-$ cd sample-django-app
+$ cd backend-planetball
 Create a virtual environment to install dependencies in and activate it:
 
 $ virtualenv2 --no-site-packages env
