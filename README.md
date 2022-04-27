@@ -1,4 +1,4 @@
-# project
+# PlaNetBall
 The project is created as per requierments for coursework under SOFT7003. This work belongs to Group 3.
 
 The first thing to do is to clone the repository:
