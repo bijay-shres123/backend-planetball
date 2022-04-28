@@ -1,12 +1,11 @@
 #Unit Testing
 
-import json
-from urllib import response
 from .models import UserProfile
-
+from django.contrib.auth.models import User
 from rest_framework import status
 from rest_framework.authtoken.models import Token
 from rest_framework.test import APITestCase
+from rest_framework import reverse
 
 from profiles_api.serializers import UserProfileSerializer
 
@@ -31,5 +30,4 @@ class RegistrationTestCase(APITestCase):
         response = self.client.post('/api/profile/',incorrect_data)
     #    test should return 1
         self.assertEqual(response.status_code,status.HTTP_400_BAD_REQUEST)
-
-        
+   
